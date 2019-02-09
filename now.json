@@ -1,0 +1,5 @@
+{
+    "name": "phonebook",
+    "version": 2,
+    "builds": [{"src":"build/index.html", "use": "@now/node"}]
+}
