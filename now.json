@@ -1,5 +1,5 @@
 {
     "name": "phonebook",
     "version": 2,
-    "builds": [{"src":"build/index.html", "use": "@now/node"}]
+    "builds": [{"src":"index.js", "use": "@now/node"}]
 }
