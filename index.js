@@ -47,6 +47,7 @@ app.use(morgan('tiny', {
 }))
 
 app.use(bodyParser.json())
+app.use(express.static('build'))
 
 //3.1
 app.get('/api/persons', (req, res) => {
